@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import HeroImage from '../../../assets/Invetment_hero.webp'
+import HeroImage from '../../../assets/images/invetment_hero.webp'
 const InvestmentHero = () => {
   return (
     <section className="bg-black text-white py-20 px-4">

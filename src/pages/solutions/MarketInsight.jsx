@@ -1,5 +1,5 @@
 import React from 'react';
-import img from '../../assets/market-insight.webp'
+import img from '../../assets/images/market-insight.webp'
 const insights = [
   {
     title: 'Current Market Trends',

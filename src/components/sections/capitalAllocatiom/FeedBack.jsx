@@ -1,7 +1,6 @@
 import React from 'react';
 import { FaFacebookF, FaInstagram } from 'react-icons/fa';
-import img from '../../../assets/review.png';
-
+import img from '../../../assets/images/review.png';
 const FeedBack = () => {
     return (
         <section className="bg-black px-5 py-10 sm:px-8 md:px-[6%] md:py-16">

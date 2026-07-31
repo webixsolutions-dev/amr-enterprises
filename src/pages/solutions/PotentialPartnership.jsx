@@ -1,9 +1,9 @@
 import React from 'react';
-import heroImg from '../../assets/partnership-hero.webp'
+import heroImg from '../../assets/images/partnership-hero.webp'
 
-import img1 from '../../assets/international-1.webp';
-import img2 from '../../assets/international-2.webp';
-import img3 from '../../assets/international-3.webp';
+import img1 from '../../assets/images/international-1.webp';
+import img2 from '../../assets/images/international-2.webp';
+import img3 from '../../assets/images/international-3.webp';
 import { Link } from 'react-router-dom';
 const whyPartner = [
   {

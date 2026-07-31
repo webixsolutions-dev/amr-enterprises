@@ -1,5 +1,5 @@
 import React from "react";
-import Portfolio from '../../../assets/Portfolio.webp'
+import Portfolio from '../../../assets/images/portfolio.webp'
 const PortfolioManagement = () => {
     return (
         <section className="bg-black text-white px-6 md:px-12 py-16 md:py-20">

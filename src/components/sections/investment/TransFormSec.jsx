@@ -1,7 +1,9 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import Investmentoverview from '../../../assets/Investment-overview.webp'
-import InvetmentSolution from '../../../assets/investment-solutions.webp'
+import Investmentoverview from '../../../assets/images/investment-overview.webp'
+import InvetmentSolution from '../../../assets/images/investment-solutions.webp'
+
+
 const categories = [
   {
 

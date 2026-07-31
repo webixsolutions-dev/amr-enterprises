@@ -1,6 +1,6 @@
 
-import MissionIimg from '../../../assets/OurMission-1.webp'
-import OurVission from "../../../assets/OurVission.webp"
+import MissionIimg from '../../../assets/images/ourMission-1.webp'
+import OurVission from "../../../assets/images/ourVission.webp"
 const items = [
   {
     title: 'Our Mission',

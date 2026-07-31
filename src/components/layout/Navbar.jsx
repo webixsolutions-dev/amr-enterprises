@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import { navLinks } from '../../data/navLinks'
-import logo from "../../assets/logo.png"
+import logo from "../../assets/images/logo.png"
 
 export default function Navbar() {
   const [dropdownOpen, setDropdownOpen] = useState(false)

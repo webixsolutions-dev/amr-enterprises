@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import Hero from "../../../assets/AboutHero.webp"
+import Hero from "../../../assets/images/aboutHero.webp"
 const AboutHero = () => {
     return (
         <section className="bg-black text-white min-h-screen flex items-center py-20 px-4">

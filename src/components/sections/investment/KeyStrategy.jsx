@@ -1,11 +1,11 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import Key1 from '../../../assets/Key1.webp'
-import Key2 from '../../../assets/Key2.webp'
-import Key3 from '../../../assets/Key3.webp'
-import Key4 from '../../../assets/Key4.webp'
-import Key5 from '../../../assets/Key5.webp'
-import Key6 from '../../../assets/Key6.webp'
+import Key1 from '../../../assets/images/key1.webp'
+import Key2 from '../../../assets/images/key2.webp'
+import Key3 from '../../../assets/images/key3.webp'
+import Key4 from '../../../assets/images/key4.webp'
+import Key5 from '../../../assets/images/key5.webp'
+import Key6 from '../../../assets/images/key6.webp'
 const strategies = [
     {
         id: 1,

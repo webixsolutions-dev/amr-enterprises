@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 
-import Image1 from "../../../assets/StockCTA1.webp";
-import Image2 from "../../../assets/StockCTA2.webp";
-import Image3 from "../../../assets/StockCTA3.webp";
+import Image1 from "../../../assets/images/stockCTA1.webp";
+import Image2 from "../../../assets/images/stockCTA2.webp";
+import Image3 from "../../../assets/images/stockCTA3.webp";
 
 const CTA = () => {
     const images = [Image1, Image2, Image3];

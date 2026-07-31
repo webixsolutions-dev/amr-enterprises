@@ -1,9 +1,8 @@
 import React from 'react';
-import img1 from '../../../assets/Capital-services.webp';
-import img2 from '../../../assets/Capitalservices-managment.webp';
-import img3 from '../../../assets/Capital-financial-analysis.webp';
-import img4 from '../../../assets/risk-managment-capital-allocations.webp';
-
+import img1 from '../../../assets/images/capital-services.webp';
+import img2 from '../../../assets/images/capitalservices-managment.webp';
+import img3 from '../../../assets/images/capital-financial-analysis.webp';
+import img4 from '../../../assets/images/risk-managment-capital-allocations.webp';
 const services = [
     {
         title: 'Strategic Investment Planning',
