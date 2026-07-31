@@ -9,7 +9,8 @@ import CapitalAllocations from '../pages/solutions/CapitalAllocations'
 import InternationalOptions from '../pages/solutions/InternationalOptions'
 import MarketInsight from '../pages/solutions/MarketInsight'
 import PotentialPartnership from '../pages/solutions/PotentialPartnership'
-import OurProducts from '../pages/OurProducts'
+import OurProducts from '../pages/BookedToday'
+import Bookedtoday from '../pages/BookedToday'
 
 export default function AppRoutes() {
   return (
@@ -18,7 +19,7 @@ export default function AppRoutes() {
       <Route path="/about" element={<About />} />
       <Route path="/investment-strategies" element={<InvestmentStrategies />} />
       <Route path="/contact-us" element={<ContactUs />} />
-      <Route path="/our-products" element={<OurProducts />} />
+      <Route path="/booked-today" element={<Bookedtoday />} />
       <Route path="/careers" element={<Careers />} />
       <Route path="/stock-market" element={<StockMarket />} />
       <Route path="/capital-allocations" element={<CapitalAllocations />} />

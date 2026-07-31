@@ -137,7 +137,7 @@ export default function Navbar() {
             <Link to="/" className="w-full max-w-sm py-3 font-medium text-white hover:text-brand border-b border-gray-800 text-center text-lg transition-colors" onClick={() => setMobileOpen(false)}>Home</Link>
             <Link to="/investment-strategies" className="w-full max-w-sm py-3 font-medium text-white hover:text-brand border-b border-gray-800 text-center text-lg transition-colors" onClick={() => setMobileOpen(false)}>Investment Strategies</Link>
             <Link to="/about" className="w-full max-w-sm py-3 font-medium text-white hover:text-brand border-b border-gray-800 text-center text-lg transition-colors" onClick={() => setMobileOpen(false)}>About</Link>
-            <Link to="/our-products" className="w-full max-w-sm py-3 font-medium text-white hover:text-brand border-b border-gray-800 text-center text-lg transition-colors" onClick={() => setMobileOpen(false)}>Our Products</Link>
+            <Link to="/booked-today" className="w-full max-w-sm py-3 font-medium text-white hover:text-brand border-b border-gray-800 text-center text-lg transition-colors" onClick={() => setMobileOpen(false)}>Our Products</Link>
 
             {/* Solutions Dropdown */}
             <div className="w-full max-w-sm border-b border-gray-800">

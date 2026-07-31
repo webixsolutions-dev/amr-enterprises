@@ -25,7 +25,7 @@ const ProductsCTA = () => {
 
           <div className="flex flex-wrap justify-center gap-5 mt-12">
             <Link
-              to="/booktoday"
+              to="/booked-today"
               className="px-8 py-4 bg-blue-600 hover:bg-blue-700 text-black  transition-all duration-300"
             >
               Explore BookToday

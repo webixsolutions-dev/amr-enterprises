@@ -5,7 +5,7 @@ import WhyChooseBookToday from '../components/sections/OurProducts/WhyChooseProd
 import FutureExpansion from '../components/sections/OurProducts/FutureProducts'
 import ProductsCTA from '../components/sections/OurProducts/ProductsCTA'
 
-const OurProducts = () => {
+const Bookedtoday = () => {
   return (
     <>
       <ProductsHero />
@@ -20,4 +20,4 @@ const OurProducts = () => {
   )
 }
 
-export default OurProducts
+export default Bookedtoday;

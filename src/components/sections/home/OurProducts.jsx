@@ -24,7 +24,7 @@ const OurProducts = () => {
 
                 <div className="flex justify-Start">
                     <Link
-                        to="/our-products"
+                        to="/booked-today"
                         className="bg-brand hover:bg-brand text-black px-8 py-4  transition duration-300"
                     >
                         Explore BookToday
