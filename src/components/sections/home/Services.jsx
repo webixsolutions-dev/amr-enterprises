@@ -32,7 +32,7 @@ export default function Services() {
               } ${index >= services.length - 2 ? 'sm:border-b-0' : ''
               }`}
           >
-            <h3 className="text-lg sm:text-xl font-semibold mb-3 text-brand">{item.title}</h3>
+            <h3 className="text-lg sm:text-xl font-semibold mb-3 text-white">{item.title}</h3>
             <p className="text-gray-400 text-sm sm:text-base leading-relaxed w-full sm:w-3/4 lg:w-1/2">
               {item.text}
             </p>

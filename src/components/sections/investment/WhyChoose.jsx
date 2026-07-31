@@ -21,27 +21,26 @@ const WhyChoose = () => {
                             Why Choose Amayra Enterprises for Investment Strategies?
                         </h3>
 
-                        {/* Points - Single Paragraph */}
-                        <div className="space-y-6">
-                            <p className="text-white leading-relaxed text-sm">
+                        <div >
+                            <p className="text-gray-400 leading-relaxed text-sm">
                                 <span className="font-bold">Expertise:</span> Our team of financial experts brings extensive experience and knowledge in investment management,
                                 asset allocation, and risk management, enabling us to deliver tailored investment strategies that
                                 meet our clients' unique needs and objectives.
                             </p>
 
-                            <p className="text-white leading-relaxed text-sm">
+                            <p className="text-gray-400 leading-relaxed text-sm">
                                 <span className="font-bold">Personalized Approach:</span> We take a personalized approach to investment strategy, taking the time to understand each client's
                                 financial goals, risk tolerance, and investment preferences. We then tailor our recommendations to
                                 align with their individual circumstances and aspirations.
                             </p>
 
-                            <p className="text-white leading-relaxed text-sm">
+                            <p className="text-gray-400 leading-relaxed text-sm">
                                 <span className="font-bold">Transparency:</span> Transparency is paramount in our client relationships. We provide clear and transparent communication
                                 throughout the investment process, keeping clients informed of our strategies, performance, and any
                                 changes or developments that may impact their portfolios.
                             </p>
 
-                            <p className="text-white leading-relaxed text-sm">
+                            <p className="text-gray-400 leading-relaxed text-sm">
                                 <span className="font-bold">Commitment to Success:</span> At Amayra Enterprises, we are committed to our clients' success. We strive to deliver investment
                                 strategies that not only meet their financial goals but also provide peace of mind and confidence
                                 in their financial future.

@@ -18,7 +18,7 @@ export default function AppRoutes() {
       <Route path="/about" element={<About />} />
       <Route path="/investment-strategies" element={<InvestmentStrategies />} />
       <Route path="/contact-us" element={<ContactUs />} />
-      <Route path="/OurProducts" element={<OurProducts />} />
+      <Route path="/our-products" element={<OurProducts />} />
       <Route path="/careers" element={<Careers />} />
       <Route path="/stock-market" element={<StockMarket />} />
       <Route path="/capital-allocations" element={<CapitalAllocations />} />

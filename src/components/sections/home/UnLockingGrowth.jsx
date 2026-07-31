@@ -17,7 +17,7 @@ const UnLockingGrowth = () => {
           </p>
           <Link
             to="/contact-us"
-            className="inline-block bg-brand text-white font-semibold px-8 py-3 rounded-md hover:bg-brand-dark transition-colors"
+            className="inline-block bg-brand text-black font-semibold px-8 py-3  hover:bg-brand-dark transition-colors"
           >
             Learn More
           </Link>

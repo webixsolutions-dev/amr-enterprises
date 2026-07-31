@@ -5,7 +5,7 @@ const OurProducts = () => {
         <section className="py-20 bg-black">
             <div className="container  px-12">
                 <div className="text-Start mb-12">
-                    <span className="text-blue-500 font-semibold uppercase tracking-widest">
+                    <span className="text-white font-semibold uppercase tracking-widest">
                         Our Products
                     </span>
                     <div className="w-full max-w-5xl h-[1px] bg-gray-700 mt-4 mb-8"></div>
@@ -24,8 +24,8 @@ const OurProducts = () => {
 
                 <div className="flex justify-Start">
                     <Link
-                        to="/booktoday"
-                        className="bg-blue-600 hover:bg-blue-700 text-black px-8 py-4  transition duration-300"
+                        to="/our-products"
+                        className="bg-brand hover:bg-brand text-black px-8 py-4  transition duration-300"
                     >
                         Explore BookToday
                     </Link>

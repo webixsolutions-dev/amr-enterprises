@@ -39,14 +39,14 @@ export default function Navbar() {
     <>
       {/* Spacer */}
       <div className="h-[80px] md:h-24 lg:h-24"></div>
-      
+
       <header className={`fixed top-0 left-0 right-0 z-50 bg-black text-white shadow-sm transition-all duration-300 ${scrolled ? 'shadow-md shadow-gray-900' : ''}`}>
         <div className={`container mx-auto flex items-center justify-between px-4 sm:px-6 lg:px-8 transition-all duration-300 ${scrolled ? 'h-16 md:h-20' : 'h-[80px] md:h-24'}`}>
-          
+
           {/* Mobile Hamburger */}
-          <button 
-            className="lg:hidden relative w-9 h-9 flex flex-col justify-center items-center gap-1.5 z-[100]" 
-            onClick={() => setMobileOpen(!mobileOpen)} 
+          <button
+            className="lg:hidden relative w-9 h-9 flex flex-col justify-center items-center gap-1.5 z-[100]"
+            onClick={() => setMobileOpen(!mobileOpen)}
             aria-label="Toggle menu"
           >
             <span className={`block h-0.5 w-6 bg-white rounded transition-all duration-300 ${mobileOpen ? 'rotate-45 translate-y-2' : ''}`} />
@@ -67,15 +67,18 @@ export default function Navbar() {
             ))}
           </nav>
 
-    
-          <Link 
-            to="/" 
-            className="absolute top-1/2 left-1/2 translate-middle -ml-12 md:-ml-14 lg:-ml-16"
+
+          <Link
+            to="/"
+            className="absolute mt-8  top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2"
           >
-            <img 
-              src={logo} 
-              alt="Amayra Enterprises" 
-              className={`transition-all duration-300 ${scrolled ? 'h-14 md:h-16 w-auto' : 'h-20 md:h-20 w-auto'}`} 
+            <img
+              src={logo}
+              alt="Amayra Enterprises"
+              className={` transition-all duration-300 ${scrolled
+                  ? 'h-20 md:h-28 lg:h-28 w-auto'
+                  : 'h-28 md:h-32 lg:h-36 w-auto'
+                }`}
             />
           </Link>
 
@@ -106,7 +109,7 @@ export default function Navbar() {
                 </Link>
               )
             )}
-            
+
             {/* More Dropdown */}
             <div className="relative" onMouseEnter={() => setMoreOpen(true)} onMouseLeave={() => setMoreOpen(false)}>
               <button className="flex items-center gap-1 text-white hover:text-brand font-medium text-sm xl:text-base transition-colors">
@@ -129,13 +132,13 @@ export default function Navbar() {
         </div>
 
         {/* Mobile Menu */}
-        <div className={`lg:hidden fixed inset-0 bg-black/95 backdrop-blur-sm transition-transform duration-300 ease-in-out z-40 ${mobileOpen ? 'translate-x-0' : 'translate-x-full'}`} style={{ top: '80px' }}>
+        <div className={`lg:hidden fixed inset-0 bg-black/95 backdrop-blur-sm transition-transform duration-300 ease-in-out z-40 ${mobileOpen ? 'translate-x-0' : 'translate-x-full'}`}>
           <nav className="flex flex-col items-center justify-start h-full px-6 py-8 gap-1 overflow-y-auto">
             <Link to="/" className="w-full max-w-sm py-3 font-medium text-white hover:text-brand border-b border-gray-800 text-center text-lg transition-colors" onClick={() => setMobileOpen(false)}>Home</Link>
             <Link to="/investment-strategies" className="w-full max-w-sm py-3 font-medium text-white hover:text-brand border-b border-gray-800 text-center text-lg transition-colors" onClick={() => setMobileOpen(false)}>Investment Strategies</Link>
             <Link to="/about" className="w-full max-w-sm py-3 font-medium text-white hover:text-brand border-b border-gray-800 text-center text-lg transition-colors" onClick={() => setMobileOpen(false)}>About</Link>
             <Link to="/our-products" className="w-full max-w-sm py-3 font-medium text-white hover:text-brand border-b border-gray-800 text-center text-lg transition-colors" onClick={() => setMobileOpen(false)}>Our Products</Link>
-            
+
             {/* Solutions Dropdown */}
             <div className="w-full max-w-sm border-b border-gray-800">
               <button className="w-full flex items-center justify-center py-3 font-medium text-white hover:text-brand text-lg transition-colors gap-2" onClick={() => setMobileSolutionsOpen(!mobileSolutionsOpen)}>

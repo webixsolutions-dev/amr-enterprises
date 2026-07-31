@@ -46,7 +46,7 @@ export default function Commitment() {
                   className="w-full h-100 object-cover "
                 />
               </div>
-              <p className="text-white text-sm leading-relaxed">{item.text}</p>
+              <p className="text-gray-500 text-sm leading-relaxed">{item.text}</p>
             </div>
           ))}
         </div>

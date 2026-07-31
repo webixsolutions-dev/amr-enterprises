@@ -12,7 +12,7 @@ export default function CTA() {
         </p>
         <Link
           to="/contact-us"
-          className="inline-block bg-brand text-black font-semibold px-8 py-3  hover:bg-gray-100 transition"
+          className="inline-block bg-brand text-black font-semibold px-8 py-3 "
         >
           Schedule Now
         </Link>
